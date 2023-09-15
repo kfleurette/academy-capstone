@@ -1,0 +1,15 @@
+docker:
+    path: .
+id: b607eec7-ebab-4b2f-9909-d811cf41cda7
+ide:
+    filename: ide.yaml
+name: fleurette
+resources:
+    path: resources
+streaming:
+    filename: streaming.yaml
+template: pyspark
+version: "0.3"
+workflows:
+    path: dags
+    version: "2"
